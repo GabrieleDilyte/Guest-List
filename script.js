@@ -49,10 +49,10 @@ allButtons.forEach((element) => {
         guestList.splice(addAt - 1, 0, guestName);
         break;
       case "moveFirst":
-        guestList.push(guestList.splice(0, 1));
+        guestList.push(guestList.shift());
         break;
       case "moveLast":
-        guestList.unshift(guestList.splice(-1));
+        guestList.unshift(guestList.pop());
         break;
       default:
         break;
