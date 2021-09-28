@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Guest List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="buttons">
+      <form>
+        <label for="guestName">Guest name:</label>
+        <input type="text" id="guestName" name="guestname" />
+      </form>
+      <button type="button" id="addEnd">Add Guest @ list end</button>
+      <button type="button" id="addStart">Add Guest @ list start</button>
+      <button type="button" id="removeFirst">Remove First</button>
+      <button type="button" id="removeLast">Remove Last</button>
+      <button type="button" id="reverse">Reverse List</button>
+    </div>
+    <div class="guestList">
+      <h3>Your guest list:</h3>
+      <ol></ol>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
