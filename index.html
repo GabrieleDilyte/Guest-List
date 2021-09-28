@@ -15,14 +15,27 @@
   <body>
     <div class="buttons">
       <form>
-        <label for="guestName">Guest name:</label>
+        <label for="guestName">Guest name:</label><br />
         <input type="text" id="guestName" name="guestname" />
+        <br />
+        <label for="from">Remove from:</label><br />
+        <input type="number" id="from" name="from" />
+        <br />
+        <label for="to">Remove to:</label><br />
+        <input type="number" id="to" name="to" />
+        <br />
+        <label for="at">Add at:</label><br />
+        <input type="number" id="at" name="at" />
       </form>
       <button type="button" id="addEnd">Add Guest @ list end</button>
       <button type="button" id="addStart">Add Guest @ list start</button>
       <button type="button" id="removeFirst">Remove First</button>
       <button type="button" id="removeLast">Remove Last</button>
       <button type="button" id="reverse">Reverse List</button>
+      <button type="button" id="removeFrom">Remove from - to</button>
+      <button type="button" id="addAt">Add at certain point</button>
+      <button type="button" id="moveLast">Move last to first</button>
+      <button type="button" id="moveFirst">Move first to last</button>
     </div>
     <div class="guestList">
       <h3>Your guest list:</h3>
